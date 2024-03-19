@@ -1,5 +1,5 @@
-rules = document.getElementById('rules')
+rulesBtn = document.getElementById('rules-btn')
 
-rules.addEventListener('click', () => {
-    document.body.classList.rules('rules-btn')
+rulesBtn.addEventListener('click', () => {
+    document.body.classList.rulesBtn('rules-btn')
 })
