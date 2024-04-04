@@ -199,7 +199,6 @@ function update() {
     requestAnimationFrame(update)
 }
 
-update()
 
 // rules interaction
 rulesBtn.addEventListener('click', () => {
@@ -208,4 +207,8 @@ rulesBtn.addEventListener('click', () => {
 
 closeBtn.addEventListener('click', () => {
     rules.classList.remove('show')
+})
+
+startBtn.addEventListener('click', () => {
+    update()
 })
