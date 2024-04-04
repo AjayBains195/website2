@@ -126,7 +126,7 @@ function moveBall() {
     ball.y = ball.y + ball.dy
 
     //wall detection
-    if (ball.y + ball.size < 0) {
+    if (ball.y - ball.size < 0) {
         ball.dy = -1 * ball.dy
     }
     if (ball.y + ball.size > canvas.height) {
@@ -139,7 +139,7 @@ function moveBall() {
         ball.dx = -1 * ball.dx
     }
 
-    if (ball.x + ball.size < 0) {
+    if (ball.x - ball.size < 0) {
         ball.dx = -1 * ball.dx
     }
     //paddle collision
