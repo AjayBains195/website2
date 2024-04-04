@@ -1,6 +1,7 @@
 rulesBtn = document.getElementById('rules-btn')
 rules = document.getElementById('rules')
 closeBtn = document.getElementById('close-btn')
+startBtn = document.getElementById('start-btn')
 
 // game interaction
 canvas = document.getElementById('canvas')
