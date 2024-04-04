@@ -199,7 +199,6 @@ function update() {
     requestAnimationFrame(update)
 }
 
-// birck colllision
 update()
 
 // rules interaction
