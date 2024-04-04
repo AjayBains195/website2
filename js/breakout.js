@@ -213,6 +213,4 @@ closeBtn.addEventListener('click', () => {
 
 startBtn.addEventListener('click', () => {
     update()
-    element = document.getElementById("start-btn")
-    element.innerHTML = "Increase Difficulty"
 })
