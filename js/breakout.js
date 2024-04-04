@@ -214,5 +214,5 @@ closeBtn.addEventListener('click', () => {
 startBtn.addEventListener('click', () => {
     update()
     element = document.getElementById("start-btn")
-    element.innertext = "Increase Difficulty"
+    element.innerHTML = "Increase Difficulty"
 })
