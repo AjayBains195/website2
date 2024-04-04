@@ -3,6 +3,7 @@ rules = document.getElementById('rules')
 closeBtn = document.getElementById('close-btn')
 startBtn = document.getElementById('start-btn')
 
+
 // game interaction
 canvas = document.getElementById('canvas')
 ctx = canvas.getContext('2d')
@@ -212,4 +213,6 @@ closeBtn.addEventListener('click', () => {
 
 startBtn.addEventListener('click', () => {
     update()
+    element = document.getElementById("start-btn")
+    element.innertext = "Increase Difficulty"
 })
