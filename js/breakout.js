@@ -199,6 +199,7 @@ function update() {
     movePaddle()
     draw()
     requestAnimationFrame(update)
+    return;
 }
 
 
